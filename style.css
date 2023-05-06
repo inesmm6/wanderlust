@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.1em;
 }
 
@@ -48,10 +49,12 @@ nav > ul > li > a {
     padding: .25vh 2vw;
     color: #3d4144;
     text-decoration: none;
-    background-color: rgb(255,255,255);
+    background-color: #fff;
+    transition: background-color 0.3s ease;
 }
 nav > ul > li > a:hover {
-    background-color: rgb(153,204,255);
+    background-color: #5298d2;
+    color: #fff;
 }
 
 main {
@@ -71,13 +74,15 @@ ul#recomendaciones > li {
     display: block;
     padding: .25em .5em;
     background-color: rgb(205, 230, 255);
+    transition: background-color 0.3s ease;
 }
 ul#recomendaciones > li:hover {
-    background-color: rgb(153,204,255);
+  background-color: #5298d2;
+  color: #fff;
 }
 ul#recomendaciones > li > a {
-    text-decoration: none;
-    color: rgb(0,0,0);
+  text-decoration: none;
+  color: #000;
 }
 
 img {
