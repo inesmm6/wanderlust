@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+header {
+    font-weight: 800;
+    font-size: 3em;
+    margin-left: 1.5vw;
+    font-family:"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    color: #3d4144;
+    background-color: rgb(255,255,255);
+    float: left;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h3 {
+    display: block;
+    font-size: 1.2em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+nav > ul {
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+nav > ul > li {
+    float: left;
+    margin-top: 2em;
+}
+nav > ul > li > a {
+    display: block;
+    padding: .25vh 2vw;
+    color: #3d4144;
+    text-decoration: none;
+    background-color: rgb(255,255,255);
+}
+nav > ul > li > a:hover {
+    background-color: rgb(153,204,255);
+}
+
+main {
+    /*max-width: 40em;  in font length units, for fixed text length */
+    margin-top: 4vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: justify;
+}
+
+ul#recomendaciones {
+    list-style-type: none;
+    padding: 0 0;
+}
+ul#recomendaciones > li {
+    margin: 1px 1px;
+    display: block;
+    padding: .25em .5em;
+    background-color: rgb(205, 230, 255);
+}
+ul#recomendaciones > li:hover {
+    background-color: rgb(153,204,255);
+}
+ul#recomendaciones > li > a {
+    text-decoration: none;
+    color: rgb(0,0,0);
+}
+
+img {
+    max-width: 40em;
+}
+
+div#localización {
+    font-size: 0.8em;
+    color: rgb(166,166,166);
+    margin-top: 0;
+}
+
+div#ultima-actualizacion{
+    font-size: 0.8em;
+    color: rgb(166,166,166);
+    margin-block-end: 1em;
+
+}
